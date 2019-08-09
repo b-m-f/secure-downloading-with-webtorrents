@@ -16,21 +16,9 @@ By loading the client dynamically, the page will not be polluted with unnecessar
 # Architecture
 
 
-```
-                                                    ----------------------------
-            ===============|  Regular Swarm    |
-            ||                                      ----------------------------
-            ||                                                      ||
--------------------                                --------------------------------------------------
-Tracker         |============|  Hybrid Server                             |
-with              |                                |   seeding both Swarms                |
-WebSockets  |                                -------------------------------------------------
-Support         |                                                    ||
---------------------                                                    ||
-        ||                                          -----------------------------------------------
-        =================| WebTorrent Clients in Browser    |
-                                                     -----------------------------------------------
-```
+![architecture_diagram.jpg](/home/user/Workspace/Canonical/Webtorrent/architecture_diagram.jpg)
+
+
 
 # POC
 
